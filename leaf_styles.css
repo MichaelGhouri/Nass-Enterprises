@@ -1,0 +1,19 @@
+/* styles.css */
+.leaf {
+    position: fixed; /* Changed from absolute to fixed */
+    width: 30px;
+    height: 30px;
+    background-image: url('images/leaf.png'); /* Your leaf image */
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -50px; /* Start above the viewport */
+    animation: fall linear infinite;
+    pointer-events: none; /* Leaves shouldn't block user interaction */
+}
+
+/* Keyframes to animate the leaves falling */
+@keyframes fall {
+    to {
+        transform: translateY(100vh) rotate(360deg); /* Keep falling vertically */
+    }
+}
