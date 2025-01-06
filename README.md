@@ -1,2 +1,2 @@
 ## Nass Enterprises
-Created this website prototype for Nass Enterprises.
+Created this website for Nass Enterprises.
